@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    padding: 3%;
+    color: whitesmoke;
+    background-color: #c1d72e;
+    text-align: center;
+}
+#title h1{
+    letter-spacing: .4rem;
+    font-size: 200%;
+}
+#title h2{
+    letter-spacing: .2rem;
+    font-size: 180%;
+}
+#title h4{
+    text-align: left;
+    letter-spacing: .05rem;
+    font-size: 150%;
+    padding-top: 2%;
+    color: cornsilk;;
+}
+#title h3::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+p{
+    letter-spacing: .05rem;
+    font-size: 150%;
+    margin-top: 2%;
+    color:cornsilk;
+}
+#grid_container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#item_2{
+    padding: 5%;
+}
+canvas{
+    color: white;
+    border: white dashed 2px;
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+}
+#alphabet {
+    margin:15px auto;
+    display: block;
+}  
+#alphabet li {
+    float:left;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+    list-style:none;
+    padding:10px 20px;
+    background: white;
+    color:#c1d72e;
+    cursor:pointer;
+    border: solid 1px white;     
+}
+#alphabet li:hover{
+    background: #c1d72e;
+    border: solid 1px white;
+    color: white;
+}
+#alphabet::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+#my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display:block;
+}
+  
+#my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size:1.6em;
+}
+#mylives{
+    font-size:1.6em;
+    text-align:center;
+    display:block;
+}
+button{
+    border-radius: 10px;
+    background:#c1d72e;
+    color: white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px; 
+}
+button:hover{
+    background: white;
+    border: solid 1px  white;
+    color: #c1d72e;
+}
+.active {
+    opacity: .5;
+    cursor:default;
+}
+#buttons{
+    display: block;
+}
+span{
+    color:cornsilk;
+}  
